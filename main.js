@@ -16,16 +16,16 @@ form.addEventListener('submit',function(e) {
     
 
     if(numA >= numB || numA == '' || numB == ''){
-        const numerFalso = document.querySelector('error-message');
+        const numerFalso = document.querySelector('.error-message');
         numerFalso.innerHTML = errorM;
         numerFalso.style.display = 'block';
-        document.querySelector('success-message').style.display = 'none';
+        document.querySelector('.success-message').style.display = 'none';
     }
 
     else{
-        const numerVerdadeiro = document.querySelector('success-message');
+        const numerVerdadeiro = document.querySelector('.success-message');
         numerVerdadeiro.innerHTML = successM;
         numerVerdadeiro.style.display = 'block';
-        document.querySelector('error-message').style.display = 'none';
+        document.querySelector('.error-message').style.display = 'none';
     }
 });
