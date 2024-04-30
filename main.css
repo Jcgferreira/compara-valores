@@ -1,0 +1,121 @@
+/* Config master*/
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+/*Config master*/
+
+
+/*HEADER*/
+h1 {
+    display: inline-table;
+    font-family: fantasy;
+    font-weight: normal;
+    margin-top: 18px;
+    margin-bottom: 40px;
+    margin-left: 8px;
+}
+
+header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: aliceblue; 
+
+}
+
+/*HEADER*/
+
+
+#value-form {
+    margin-top: 24px;
+
+}
+
+
+
+.container {
+    max-width: 1028px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*FORM*/
+
+#form, textarea {
+    width: 100%;
+    max-width: 1000px;
+    align-items: center;
+    background: hsl(230, 8%, 85%);
+    border: 2px solid #2b2c37;
+    border-radius: 10px;
+    display: list-item;
+    position: relative;
+
+}
+
+
+#form h2 {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#form input {
+    width: calc(80% - 70px);
+    font: inherit;
+    font-size: 18px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+}
+
+form input ::placeholder {
+    color: #fdfdfd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+form button {
+    margin-left: 8px;
+    margin-bottom: 8px;
+    padding: 10px 20px;
+    background-color: #f9fafb;
+    border: 2px solid #111827;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    position: relative;
+    display: list-item;
+}
+
+form button:hover {
+    background-color: #111827;
+    color: #f9fafb;
+}
+
+/*FORM*/
+
+/*MENSAGENS DE SUCESSO E FALHA*/
+
+p.success-message {
+    margin-top: 3px;
+    margin-left: 8px;
+    background-color: rgb(196, 255, 196);
+    width: 230px;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    justify-content: center;
+    display: none;
+}
+
+p.error-message {
+    color: red;
+    margin: 8px;
+    font-style: inherit;
+}
